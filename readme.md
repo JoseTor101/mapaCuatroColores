@@ -15,7 +15,7 @@ El siguiente algoritmo tiene como propósito pintar un mapa con cuatro colores, 
 
 ![Representacion manual de la salida](https://github.com/JoseTor101/mapaCuatroColores/blob/master/salida.png)
 
-
+#### Versión de Python: 3.10.4
 
 Práctica propuesta en la asignatura:
 ESTRUCTURA DE DATOS Y ALGORITMOS I
@@ -23,3 +23,4 @@ ESTRUCTURA DE DATOS Y ALGORITMOS I
 UNIVERSIDAD EAFIT
 
 SEMESTRE 2022-2
+
