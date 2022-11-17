@@ -13,7 +13,7 @@ El siguiente algoritmo tiene como propósito pintar un mapa con cuatro colores, 
 
 
 
-![Representacion manual de la salida](https://github.com/JoseTor101/mapaCuatroColores/blob/master/representacionSalida.png)
+![Representacion manual de la salida](https://github.com/JoseTor101/mapaCuatroColores/blob/master/salida.png)
 
 
 
