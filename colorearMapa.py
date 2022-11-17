@@ -41,6 +41,8 @@ def asignarColores(pais, color, vacio):
         posColor = colores.index(color)
         colorR = random.randint(0, 3)
 
+        v = []
+        
         for i in adyacencias[pais]:
             v.append(mapaColoreado[i])
 
