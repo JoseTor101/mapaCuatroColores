@@ -1,6 +1,9 @@
+"""---- COLOREO DE MAPAS CON CUATRO COLORES------
+
+PRÁCTICA REALIZADA POR JOSÉ TORDECILLA Y JULIÁN MEJIA
+"""
 
 import random
-#import plorly.express as px
 
 adyacencias = {
     "Argentina": ["Chile", "Bolivia", "Paraguay", "Uruguay", "Brasil"],
@@ -38,8 +41,6 @@ def asignarColores(pais, color, vacio):
         posColor = colores.index(color)
         colorR = random.randint(0, 3)
 
-        v = []
-
         for i in adyacencias[pais]:
             v.append(mapaColoreado[i])
 
@@ -56,7 +57,7 @@ def asignarColores(pais, color, vacio):
             mapaColoreado[pais] = colores[colorR]
 
 def compararColores(paises, adyacencias):
-    #for adyacentes in adyacencias[paisActual].items():
+    #Verificando que los colores de las adyacencias y el país actual no sea el mismo
     for paisActual in paises:
             for paisAdy in adyacencias[paisActual]:
                 if mapaColoreado[paisActual] == mapaColoreado[paisAdy]:
@@ -67,7 +68,6 @@ def imprimir():
     azul ="\033[0;34m"  
     verde = "\033[0;32m" 
 
-    paisRec = 0
 
     for i in mapaColoreado:
         color = ""
@@ -88,5 +88,6 @@ def main():
     compararColores(paises, adyacencias)
 
     imprimir()
+
 main()
 
